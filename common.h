@@ -10,7 +10,7 @@
  *       Revision:  none
  *       Compiler:  gcc
  *
- *         Author:  Occam's Razor
+ *         Author:  Richard Yang
  *   Organization:  
  *
  * =====================================================================================

@@ -6,11 +6,11 @@
  *    Description:
  *
  *        Version:  1.0
- *        Created:  2014/08/29 08时59分57秒
+ *        Created:  2014/08/29
  *       Revision:  none
  *       Compiler:  gcc
  *
- *         Author:  YangBing (),
+ *         Author:  Richard Yang
  *   Organization:
  *
  * =====================================================================================
