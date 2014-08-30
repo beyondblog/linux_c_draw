@@ -50,17 +50,17 @@ int main(int agrc, char* argc[])
     fprintf(stdout, "Appliction Title");
 
     //draw bottom bar
-    set_cursor_point(0, row - 1);
+    set_cursor_point(0, row);
     backgroud_color(BACKGRPUND_BLACK);
     for(int i = 0; i < col / 2; i++)
         printf("  ");
-    set_cursor_point(0, row -1);
+    set_cursor_point(0, row);
     textcolor(TEXT_WHITE);
     fprintf(stdout, "  Status Bar");
     set_cursor_point(0, row);
     
     hide_cursor();
-    getchar();
+    getch();
     show_cursor();
     return 0;
 }

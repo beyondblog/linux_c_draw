@@ -15,7 +15,9 @@
  *
  * =====================================================================================
  */
-
+#include <termios.h>
+#include <unistd.h>
+#include <assert.h>
 
 #define TEXT_BLACK     "\033[30m"
 #define TEXT_RED       "\033[31m"
@@ -51,3 +53,5 @@ void hide_cursor();
 void show_cursor();
 void save_cursor();
 void load_cursor();
+int getch(void);
+
